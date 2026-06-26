@@ -58,7 +58,7 @@ In short: GBIF, in RDF, on affordable hardware, openly queryable, geospatial, fe
 6. **Watch the 5-minute film** (link below) for the full walkthrough.
 
 ## Link to video / screencast (≤5 min)
-*<add YouTube link once uploaded>* — and the companion screencast https://youtu.be/vKqK2SePcXY
+https://youtu.be/Wg0VYpE6Cu0 — and the companion screencast https://youtu.be/vKqK2SePcXY
 
 ## Link(s) to source location
 - Submission repo: https://github.com/Micelio/ebbe-nielsen-2026-gbif
