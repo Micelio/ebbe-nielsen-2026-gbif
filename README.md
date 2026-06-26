@@ -8,13 +8,12 @@ GBIF occurrence data (and the taxonomic backbone) converted from Parquet to **RD
 
 | Role | Name | ORCID | Affiliation (country) |
 |------|------|-------|------------------------|
-| Primary contact | **Andra Waagmeester** | [orcid:0000-0001-9773-4008](https://orcid.org/0000-0001-9773-4008) | Micelio (BE) · Maastricht University (NL) |
+| Primary contact | **Andra Waagmeester** | [orcid:0000-0001-9773-4008](https://orcid.org/0000-0001-9773-4008) | Micelio (BE) |
 | | Hannah Bast | [orcid:0000-0003-1213-6776](https://orcid.org/0000-0003-1213-6776) | University of Freiburg (DE) |
 | | Jerven Bolleman | [orcid:0000-0002-7449-1266](https://orcid.org/0000-0002-7449-1266) | SIB Swiss Institute of Bioinformatics (CH) |
 | | Tiago Lubiana | [orcid:0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313) | University of São Paulo (BR) |
 | | Robert Hoehndorf | [orcid:0000-0001-8149-5890](https://orcid.org/0000-0001-8149-5890) | KAUST (SA) |
 
-*(affiliations/countries best-effort, please verify before submitting)*
 
 ## Videos
 - **Submission film (≤5 min):** https://youtu.be/Wg0VYpE6Cu0
