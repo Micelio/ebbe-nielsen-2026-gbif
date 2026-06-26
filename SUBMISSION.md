@@ -64,5 +64,7 @@ https://youtu.be/Wg0VYpE6Cu0 — and the companion screencast https://youtu.be/v
 - Submission repo: https://github.com/Micelio/ebbe-nielsen-2026-gbif
 - Spread app: https://github.com/Micelio/eu-invasive-spread-gbif
 - Reserve tool: https://github.com/lubianat/gbif_sparql
+- Parquet → RDF converter: https://github.com/Micelio/gbif_parquet
 - QLever engine: https://github.com/ad-freiburg/qlever
+- QLever Petrimaps (Map view): https://github.com/ad-freiburg/qlever-petrimaps
 - Live endpoint: https://qlever.dev/api/gbif

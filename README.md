@@ -18,6 +18,7 @@ GBIF occurrence data (and the taxonomic backbone) converted from Parquet to **RD
 
 ## Videos
 - 🎬 **Submission film (≤5 min):** https://youtu.be/Wg0VYpE6Cu0
+- 🎞️ **Full-length cut** (Tiago's queries at natural speed, ~6:43): [`video/GBIF_Ebbe_Nielsen_long.mp4`](video/GBIF_Ebbe_Nielsen_long.mp4)
 - ▶️ **Companion tool screencast (Tiago Lubiana):** https://youtu.be/vKqK2SePcXY
 
 ## Try it live
@@ -28,7 +29,7 @@ GBIF occurrence data (and the taxonomic backbone) converted from Parquet to **RD
 | Occurrences inside/outside nature reserves (GBIF × OSM) | https://tiago.bio.br/gbif_sparql/ | [lubianat/gbif_sparql](https://github.com/lubianat/gbif_sparql) |
 
 ## How it works (data pipeline)
-1. **GBIF occurrence + backbone Parquet → RDF** with the `gbif_parquet` converter (≈261 GB of occurrences in the simple Parquet export).
+1. **GBIF occurrence + backbone Parquet → RDF** with the [`gbif_parquet`](https://github.com/Micelio/gbif_parquet) converter (≈261 GB of occurrences in the simple Parquet export).
 2. **Hosted on QLever** with geoSPARQL support, on modest hardware. Public endpoint: `https://qlever.dev/api/gbif` (UI: `https://ui.qlever.dev/gbif`).
 3. **Federation** with Wikidata (`https://qlever.dev/api/wikidata`) and OpenStreetMap (`https://qlever.dev/api/osm-planet`) for cross-graph and spatial questions.
 4. **Apps** consume the live endpoint directly from the browser — no backend, no cloud bill, no login.
@@ -51,9 +52,11 @@ Demo running order: [`storyboard.md`](storyboard.md).
 
 ## Repositories & data
 - **This repo** — the umbrella submission.
+- **Parquet → RDF converter** — [Micelio/gbif_parquet](https://github.com/Micelio/gbif_parquet)
+- **QLever SPARQL engine** — [ad-freiburg/qlever](https://github.com/ad-freiburg/qlever)
+- **QLever Petrimaps** (the Map view) — [ad-freiburg/qlever-petrimaps](https://github.com/ad-freiburg/qlever-petrimaps)
 - **Spread app** — [Micelio/eu-invasive-spread-gbif](https://github.com/Micelio/eu-invasive-spread-gbif)
-- **Reserve tool** — [lubianat/gbif_sparql](https://github.com/lubianat/gbif_sparql) (by Tiago Lubiana)
-- **Parquet → RDF** — `gbif_parquet` converter · **QLever** engine — https://github.com/ad-freiburg/qlever
+- **Reserve tool** — [lubianat/gbif_sparql](https://github.com/lubianat/gbif_sparql) (Tiago Lubiana)
 - **Data** — GBIF occurrence download (Parquet) + GBIF backbone; OpenStreetMap; Wikidata. All open.
 
 ---
