@@ -17,9 +17,9 @@ GBIF occurrence data (and the taxonomic backbone) converted from Parquet to **RD
 *(affiliations/countries best-effort — please verify before submitting)*
 
 ## Videos
-- 🎬 **Submission film (≤5 min):** https://youtu.be/Wg0VYpE6Cu0
-- 🎞️ **Full-length cut** (Tiago's queries at natural speed, ~6:43): [`video/GBIF_Ebbe_Nielsen_long.mp4`](video/GBIF_Ebbe_Nielsen_long.mp4)
-- ▶️ **Companion tool screencast (Tiago Lubiana):** https://youtu.be/vKqK2SePcXY
+- **Submission film (≤5 min):** https://youtu.be/Wg0VYpE6Cu0
+- **Full-length cut** (Tiago's queries at natural speed, ~6:43): [`video/GBIF_Ebbe_Nielsen_long.mp4`](video/GBIF_Ebbe_Nielsen_long.mp4)
+- **Companion tool screencast (Tiago Lubiana):** https://youtu.be/vKqK2SePcXY
 
 ## Try it live
 | Demo | Link | Repo |
